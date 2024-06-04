@@ -1,0 +1,5 @@
+https://surplustronics.co.nz/products/7255-gps-module-for-arduino-with-antenna
+
+https://forum.arduino.cc/t/beginners-guidance-gps-module-neo-6m/889018
+
+https://randomnerdtutorials.com/guide-to-neo-6m-gps-module-with-arduino/
