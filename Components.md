@@ -11,3 +11,7 @@ https://randomnerdtutorials.com/guide-to-neo-6m-gps-module-with-arduino/
   ## USB A to mini USB converter cable
 - https://www.jaycar.co.nz/05m-usb-20-a-male-to-5-pin-mini-b-cable/p/WC7709
 - https://www.pbtech.co.nz/product/ITPAK672M2/Dynamix-C-U2AMB-2-2M-USB-20-Type-Mini-B-5pin-Male?qr=GShopping&gad_source=1&gclid=EAIaIQobChMIxLPw7_DChgMVyKZmAh1wcj3TEAQYAiABEgIUm_D_BwE)
+
+
+## Resources
+- https://learnarduinonow.com/2014/02/22/arduino-ublox-neo-6m-gps.html
