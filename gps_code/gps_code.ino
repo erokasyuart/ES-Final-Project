@@ -4,14 +4,19 @@
 static const int RXPin = 0, TXPin = 1;
 static const uint32_t GPSBaud = 9600;
 
+static const int BT_RX = 12, BT_TX = 11;
+
 // The TinyGPSPlus object
 TinyGPSPlus gps;
 
 // The serial connection to the GPS device
 SoftwareSerial gpsSerial(RXPin, TXPin);
+// The serial connection to the Bluetooth Module
+SoftwareSerial BTSerial(BT_RX,BT_TX);
 
 void setup() {
   Serial.begin(GPSBaud);
+  BTSerial.begin(GPSBaud);
   gpsSerial.begin(GPSBaud);
 }
 
@@ -33,8 +38,9 @@ bool CheckValidLocation() {
 }
 
 void DisplayLocation() {
-  Serial.print(gps.location.lat(), 6);
-  Serial.print(F(","));
-  Serial.print(gps.location.lng(), 6);
-  Serial.println();
+
+  BTSerial.print(gps.location.lat(), 6);
+  BTSerial.print(F(","));
+  BTSerial.print(gps.location.lng(), 6);
+  BTSerial.println();
 }
